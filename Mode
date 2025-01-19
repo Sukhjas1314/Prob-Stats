@@ -8,9 +8,10 @@
         Mode = Value of the variable corresponding to max. frequency
                  |---|---|---|---|---|---|
               eg.| X:| 1 | 2 | 3 | 4 | 5 |
+                 |---|---|---|---|---|---|      In this ques, Mode = 62
                  | f:| 13| 62| 42| 37| 28|
                  |---|---|---|---|---|---|
-                 In this ques, Mode = 62
+                
 
         (1) In case of frequency distribution (is regular) where class intervals are given : 
               |-----------------------------------|
