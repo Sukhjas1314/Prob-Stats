@@ -5,14 +5,65 @@
 -> For a continuous series -:
 
     (1) Direct method ->
-                       X = (L + U) / 2
-                              _
-                       A.M is X = E(fX)/Ef
+                      |-----------------|
+                      | X = (L + U) / 2 |
+                      |-----------------|
+
+                      |--------------------|
+                      |        _           |
+                      | A.M is X = ∑(fX)/∑f|  
+                      |--------------------|
     
     (2) Step deviation _-> 
-                       X = A + h*(E(fd)/Ef)
+                      |---------------------|
+                      | X = A + h*(∑(fd)/∑f)|  
+                      |---------------------|
                        where d = (x - A)/h  is the step deviation
                        A is the assumed mean
                        h is the width of the class interval
                   
  
+-> Generalisation to k groups         __  __       __   
+   If n1, n2,...,nk are the sizes and x1, x2, ..., xk are the respective 
+   means of the k groups, then the combined mean is given as -:
+                      |------------------------------|
+                      |  _     __     __           __| 
+                      |  x = n1x1 + n2x2 + ... + nkxk|
+                      |      ------------------------|
+                      |         n1 + n2 + ... + nk   |
+                      |------------------------------|
+
+-> Mean Deviation or Average deviation :
+                      |---------------------------|
+                      | M.D = ∑|X - A|            |
+                      |       ---------           |
+                      |           n               |
+                      |---------------------------|
+                        where A : can be mean,median or mode
+
+              In case of frequency distribution : 
+                      |---------------------------|
+                      | M.D = ∑f|X - A|           |
+                      |       ----------          |
+                      |           ∑f              |
+                      |---------------------------|
+                        where A : can be mean,median or mode
+
+
+-> The sum of absolute deviations of a given set of observations is min when 
+   taken about Median.
+
+
+-> No mathematical justification in ignoring the signs of the deviations as if 
+   don't ignore then M.D (about mean) is always 0.
+
+
+-> For symmetrical distribution, Mean = Median = Mode . Thus M.D about Median 
+   or Mode would also be approx. 0 for a moderately assymetrical(skewed) distribution.
+
+
+
+
+
+
+
