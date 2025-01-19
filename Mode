@@ -1,0 +1,62 @@
+                                    MODE
+
+->  It is the value which occurs most frequently in a set of observations and around which 
+    the other values of the set cluster densely.
+
+->  Computation of Mode -:
+
+        Mode = Value of the variable corresponding to max. frequency
+                 |---|---|---|---|---|---|
+              eg.| X:| 1 | 2 | 3 | 4 | 5 |
+                 | f:| 13| 62| 42| 37| 28|
+                 |---|---|---|---|---|---|
+                 In this ques, Mode = 62
+
+        (1) In case of frequency distribution (is regular) where class intervals are given : 
+              |-----------------------------------|
+              | Mode = l +   h * (f1 - f0)        |   
+              |            --------------------   | 
+              |            (f1 - f0) + (f1 - f2)  |
+              |-----------------------------------|
+                    where l : lower limit of modal class
+                          h : width of the modal class
+                          f0 : frequency of the class preceding to the modal class
+                          f1 : frequency of modal class
+                          f2 : frequency of class succeeding to the modal class
+
+        (2) If the frequency distribution is bimodal or maximum frequency either in the first or in the last class then we use Emperical formula :
+                    |----------------------------|
+                    | Mode = 3(Median) - 2(Mean) |
+                    |----------------------------|
+
+        (3) If f0 = f2 :  (Only gives an approx. estimate of mode)
+                    |---------------------|
+                    | Mode = l + (h / 2)  |
+                    |---------------------|
+
+        (4) If f2 > f0 :  (Only gives an approx. estimate of mode)
+                    |----------------------|
+                    | Mode = l +  h * f2   |
+                    |            --------  |
+                    |             f0 + f2  |
+                    |----------------------|
+
+        (5) If f0 > f2 :  (Only gives an approx. estimate of mode)
+                    |-----------------------|
+                    | Mode = u -  h * f2    |  where u is the mid value of the modal class
+                    |            --------   |
+                    |             f1 + f2   |
+                    |-----------------------|
+
+        (6) If the frequency distribution is irregular :
+                    Grouping method is used by making 6 different blocks : 
+                      1) -> Original frequency
+                      2) -> sum of 2 frequencies from top 
+                      3) -> sum of 2 frequencies leaving the first frequency
+                      4) -> sum of 3 frequencies from top
+                      5) -> sum of 3 frequencies leaving the first frequency
+                      6) -> sum of 3 frequencies leaving the first 2 frequencies
+
+                      Then finding the max frequncy class or element
+            
+            
