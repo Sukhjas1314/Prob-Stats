@@ -2,13 +2,14 @@ MEAN
 
 For a continuous series -:
 (1) Direct method ->
-              X = (L + U) / 2
-                     _
-              A.M is X = E(fX)/Ef
+                   X = (L + U) / 2
+                          _
+                   A.M is X = E(fX)/Ef
 
 (2) Step deviation _-> 
-               X = A + h*(E(fd)/Ef)
-               where d = (x - A)/h  is the step deviation
-               A is the assumed mean
-               h is the width of the class interval
-              
+                   X = A + h*(E(fd)/Ef)
+                   where d = (x - A)/h  is the step deviation
+                   A is the assumed mean
+                   h is the width of the class interval
+                  
+ 
