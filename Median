@@ -1,0 +1,20 @@
+                                   MEDIAN
+
+-> It is a positional number which divides the given series into 2 equal parts.
+      eg. 1,4,5,7,8
+          In this ques Median is the 3rd position
+      
+
+-> For discrete series (Ungrouped data) -:
+
+        Median = ((n + 1) / 2)th term    (if n is odd)
+        Median = ((n / 2)th + ((n / 2) + 1)th) / 2 term      (if n is even)
+
+-> For continuous series (Grouped data) -:
+
+        Median = l + (h / f) * ((N / 2) - C) 
+                where l : lower limit of median class
+                      h : width of the median class
+                      f : frequency of the median class
+                      N : total frequency
+                      C : Cumulative frequency (just preceding the median class)
