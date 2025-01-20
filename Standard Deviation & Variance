@@ -1,0 +1,36 @@
+                                          Measures of dispersion
+
+-> Standard Deviation : Defined as the positive square root of the arithmetic mean of the squares of the deviations of the given 
+   observations from their arithmetic mean. (Denoted by 𝜎)
+
+                                |------------------|
+                                | 𝜎 = √(X - A.M)^2 |
+                                |     -----------  |
+                                |         √n       |
+                                |------------------|
+
+
+-> Variance : Square of the standard deviation (Denoted by 𝜎^2)
+
+                                |--------------------|
+                                | Variance = (S.D)^2 |
+                                |--------------------|
+
+-> Imp points :
+
+                                |---------------------|
+                                | Var(X + a) = Var(X) |
+                                |---------------------|
+
+
+                                |------------------------|
+                                | Var(aX) = a^2 * Var(X) |
+                                |------------------------|
+
+
+                                |----------------------------|
+                                | Var(aX + b) = a^2 * Var(X) |
+                                |----------------------------|
+
+                                  where a and b are constants
+          
