@@ -1,6 +1,8 @@
                                     MEAN
 
+
 -> It is simply average (Sum of total numbers / Total numbers)
+
 
 -> For a continuous series -:
 
@@ -14,8 +16,9 @@
                       | A.M is X = ∑(fX)/∑f|  
                       |--------------------|
     
-    (2) Step deviation _-> 
+    (2) Step deviation -> 
                       |---------------------|
+                      | _                   | 
                       | X = A + h*(∑(fd)/∑f)|  
                       |---------------------|
                        where d = (x - A)/h  is the step deviation
@@ -33,21 +36,22 @@
                       |         n1 + n2 + ... + nk   |
                       |------------------------------|
 
+
 -> Mean Deviation or Average deviation :
                       |---------------------------|
-                      | M.D = ∑|X - A|            |
+                      | M.D = ∑|X - Y|            |
                       |       ---------           |
                       |           n               |
                       |---------------------------|
-                        where A : can be mean,median or mode
+                        where Y : can be mean,median or mode
 
               In case of frequency distribution : 
                       |---------------------------|
-                      | M.D = ∑f|X - A|           |
+                      | M.D = ∑f|X - Y|           |
                       |       ----------          |
                       |           ∑f              |
                       |---------------------------|
-                        where A : can be mean,median or mode
+                        where Y : can be mean,median or mode
 
 
 -> The sum of absolute deviations of a given set of observations is min when 
@@ -60,6 +64,14 @@
 
 -> For symmetrical distribution, Mean = Median = Mode . Thus M.D about Median 
    or Mode would also be approx. 0 for a moderately assymetrical(skewed) distribution.
+
+
+-> 2nd method : 
+                      |---------------------------------------|
+                      | M.D = ∑f|X - a| + (Y - a)(∑fB-∑fA)    |    where Y = can be mean, median, mode
+                      |      ---------------------------------|          a = middle value mostly
+                      |                  ∑f                   |          fB = frequency values less than mean value and including the mean value one 
+                      |---------------------------------------|          fA = frequency values more than mean value class 
 
 
 
