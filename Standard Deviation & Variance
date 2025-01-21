@@ -4,7 +4,7 @@
    observations from their arithmetic mean. (Denoted by 𝜎)
 
                                 |------------------|
-                                | 𝜎 = √(X - A.M)^2 |
+                                | 𝜎 = √(∑X - A.M)^2 |
                                 |     -----------  |
                                 |         √n       |
                                 |------------------|
@@ -32,5 +32,93 @@
                                 | Var(aX + b) = a^2 * Var(X) |
                                 |----------------------------|
 
-                                  where a and b are constants
+                                    where a and b are constants
+
+
+-> Standard deviation through step deviation method : 
+
+                                |----------------------|
+                                | 𝜎 = √(∑fd^2 - A.M^2) |
+                                |      ------          |
+                                |       √∑f            |
+                                |----------------------|
+
+
+-> Combined Standard deviation : That means if sizes and S.D of 2 series are given then we can calculate the combined S.D also
+
+                                |------------------------------------------|
+                                | 𝜎 = √(n1(𝜎1^2 + d1^2) + n2(𝜎2^2 + d2^2)) |
+                                |     ------------------------------------ |
+                                |               √(n1 + n2)                 |
+                                |------------------------------------------|
+                                                                       __   _      __   _
+                                      where d1 and d2 are respectively X1 - X  &   X2 - X 
+                                            _     __     __
+                                            X = n1X1 + n2X2
+                                                -----------
+                                                  n1 + n2
+
+
+                                    (Similarly would be for k groups in general)
+
+
+-> Consistency -:
+              • Better performance
+              • Dispersion(Variation) must be small
+ 
+          So to have both of these characteristics for consistency , coefficient of variation is used 
+
+
+-> Relative measure of dispersion based on the S.D is called Coefficient of standard deviation (independent of the units)
+
+                                |-------------------|      
+                                | Coef. of S.D = 𝜎  |
+                                |               --- |
+                                |               A.M |
+                                |-------------------|
+
+
+
+-> Coefficient of variation is 100 times the coef. of S.D
+                                |-------------------------------|      
+                                | Coef. of Variation = 𝜎        |
+                                |                     --- * 100 |
+                                |                     A.M       |
+                                |-------------------------------|
+
+-> • Less C.V is said to be more homogeneous and uniform or less variable than the other
+   • More C.V is said to be more heterogeneous or more uniform than the other
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
           
