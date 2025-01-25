@@ -1,0 +1,86 @@
+                    Probability
+
+
+->  Random experiment :- 
+              •  If in each trial of an experiment conducted under identical conditions, the outcome is not unique but 
+                 may be any one of the possible outcomes.
+              •  eg. (1) Tossing a coin
+                     (2) Rolling a dice
+                     (3) Drawing 2 red balls from a bag of 3 different color balls
+
+
+->  Outcomes :-
+              •  Result of random experiment 
+
+
+->  Exhaustive events :-
+              •  Total number of possible outcomes of a randomn experiment
+
+
+->  Mutually exclusive :-
+              •  In two events if happening of any one of them exclude the happenig of all the others.
+              •  eg. While tossing a coin, heads or tails cannot come at the same time therefore they are mutually 
+                     exclusive.
+
+
+->  Independent events :-
+              •  In 2 events, if happening of one is not affected by the happening of the others.
+
+
+->  eg. In a bag there are 3 white and 2 red balls, 2 balls are drawn
+        Outcomes : 2W        <-|
+                   2R        <-|-> Exclusive or disjoint events (or case)
+                   1W  1R    <-|
+                    ↑  ↑
+              Independent events (and case)
+
+
+-> Equally likely :- If the chances/probability of 2 events to occcur is same
+
+
+->  Probabilty :
+              |-------------------------------------|
+              |  P(A) = No. of Favourable outcomes  |
+              |        -----------------------------|
+              |       T-No. of exxhaustive outcomes |
+              |-------------------------------------|
+
+
+->  Sample space : Set of all possible outcomes of a random experiment (denoted by S)
+
+
+-> Axiomic Probability :
+              •  P(A) >= 0               (Axiom of non-negativity)
+              •  P(S) = 1                (Axiom of certainity)
+              •  P(∏ Ai) = ∑P(Ai)        (Axioms of additivity)
+                  (From i = 1 to n/∞)
+
+
+->  Addition theorem of probability :
+              |------------------------------------|
+              | P(A ∪ B) = P(A) + P(B) - P(A ∩ B); |
+              |------------------------------------|
+
+              |-----------------------|
+              | P(A ∪ B) = n(A ∪ B)   | 
+              |            --------   |
+              |              n(S)     |
+              |-----------------------|
+
+              |------------------|
+              | P(A') = 1 - P(A) |
+              |------------------| 
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
