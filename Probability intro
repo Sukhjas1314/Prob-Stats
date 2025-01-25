@@ -70,7 +70,25 @@
               |------------------|
               | P(A') = 1 - P(A) |
               |------------------| 
-            
+
+
+->  Conditional probability :  We need this probability concept when it is known that event B has occured already, and
+                               to find the probability of event A under the condition of event B. (denoted by P(A|B))
+
+              |-------------------|
+              | P(A|B) = P(A ∩ B) |
+              |          -------- |          where P(B) ≠ 0
+              |            P(B)   |
+              |-------------------|
+
+
+->  Multiplication rule :
+          Generalisation =>
+              |-----------------------------------------------------------|
+              | P(A1 ∩ A2 ∩ A3...) = (P(A1))*(P(A2|A1))*(P(A3|A1 ∩ A2)... |
+              |-----------------------------------------------------------|          
+             
+
 
 
 
