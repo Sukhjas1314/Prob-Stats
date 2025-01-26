@@ -102,9 +102,16 @@
 							|------------------------|
 
 
-->	
-		
+->  Total no. of conditions for mutual independence of A1,A2,...,An is :
+              = nc2 + nc3 + ... + ncn
+              = (nc0 + nc1 + nc3 + ... + ncn) - nc0 - nc1
+              = 2^n - 1 - n
 
+
+->  Mutually exclusive (disjoint) events with positive probabilities have intersection as ø i.e. probabity of intersection
+    of events is 0.
+		
+    
 
 
 
