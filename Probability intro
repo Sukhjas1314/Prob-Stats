@@ -87,11 +87,23 @@
               |-----------------------------------------------------------|
               | P(A1 ∩ A2 ∩ A3...) = (P(A1))*(P(A2|A1))*(P(A3|A1 ∩ A2)... |
               |-----------------------------------------------------------|          
-             
 
 
+->  If A & B are independent events so that each occurence or non- occurence of A is not affected by occurence or 
+    non - occurence of B,then :
+              |-------------------------------|
+              | P(A|B) = P(A) or P(B|A) = P(B)|
+              |-------------------------------| 
 
 
+->	Multipllication Theorem of independent events :
+							|------------------------|
+							| P(A ∩ B) = P(A) * P(B) |
+							|------------------------|
+
+
+->	
+		
 
 
 
