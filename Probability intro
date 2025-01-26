@@ -35,7 +35,7 @@
               Independent events (and case)
 
 
--> Equally likely :- If the chances/probability of 2 events to occcur is same
+->  Equally likely :- If the chances/probability of 2 events to occcur is same
 
 
 ->  Probabilty :
@@ -49,7 +49,7 @@
 ->  Sample space : Set of all possible outcomes of a random experiment (denoted by S)
 
 
--> Axiomic Probability :
+->  Axiomic Probability :
               •  P(A) >= 0               (Axiom of non-negativity)
               •  P(S) = 1                (Axiom of certainity)
               •  P(∏ Ai) = ∑P(Ai)        (Axioms of additivity)
