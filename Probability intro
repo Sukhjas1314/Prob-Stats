@@ -111,7 +111,8 @@
 ->  Mutually exclusive (disjoint) events with positive probabilities have intersection as ø i.e. probabity of intersection
     of events is 0.
 		
-    
+
+->  ** If two events are Disjoint then they can't be independent and vice-versa.
 
 
 
