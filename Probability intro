@@ -110,9 +110,44 @@
 
 ->  Mutually exclusive (disjoint) events with positive probabilities have intersection as ø i.e. probabity of intersection
     of events is 0.
-		
+	
 
 ->  ** If two events are Disjoint then they can't be independent and vice-versa.
+
+
+->  Partition : Let A = {A1,A2,...,An} be a finite collection of events. Then A is a partition of sample space S if following
+    conditions hold :-
+              •  P(Ai) >= 0      (for each i)
+              •  Events Ai are pairwise disjoints i.e., Ai ∩ Aj = ø   (for i ≠ j)
+              •  Union of the events Ai equals to the sample space s i.e. Ui Ai = S 
+
+
+->  Total probability Theorem :
+              Let A = {A1,A2,...,An} be a partition of the sample space S. If B is any event, then -:
+                              |------------------------|
+                              | P(B) = ∑P(Ai)* P(B|Ai) |
+                              |------------------------|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
