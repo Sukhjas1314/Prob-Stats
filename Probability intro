@@ -129,6 +129,16 @@
                               |------------------------|
 
 
+->  If A1,A2,...,An are mutually disjoint events with P(Ai) ≠ 0 , then for any arbitrary event E which is subset of Ii Ai such 
+    that P(E) > 0 , we have 
+                              |----------------------------|
+                              | P(Ai|E) = P(Ai) * P(E|Ai)  |
+                              |          ----------------- |
+                              |          ∑(P(Ai) * P(E|Ai))|
+                              |----------------------------|
+
+
+
 
 
 
