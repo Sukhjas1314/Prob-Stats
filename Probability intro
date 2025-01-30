@@ -142,7 +142,9 @@
 ->  Random Variable : A real number X associated with the outcomes of a random experiment.
 
 
-
+->  Types of random variable :- 
+                •  Discrete random variable => finite or countable number of outcomes in a sample space
+                •  Continuous random variable => uncountable number of outcomes in a sample space
 
 
 
