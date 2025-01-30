@@ -130,7 +130,7 @@
 
 
 ->  Bayes' Theorem :-
-    If A1,A2,...,An are mutually disjoint events with P(Ai) ≠ 0 , then for any arbitrary event E which is subset of Ii Ai such 
+    If A1,A2,...,An are mutually disjoint events with P(Ai) ≠ 0 , then for any arbitrary event E which is subset of Ai such 
     that P(E) > 0 , we have 
                               |----------------------------|
                               | P(Ai|E) = P(Ai) * P(E|Ai)  |
@@ -146,6 +146,13 @@
                 •  Discrete random variable => finite or countable number of outcomes in a sample space
                 •  Continuous random variable => uncountable number of outcomes in a sample space
 
+
+->  P{roperties of distribution function : 
+                |-----------------------------|
+                |  P(a < X ≤ b) = F(b) - F(a) |
+                |-----------------------------|
+    As P(x = a) is always 0 therefore,
+    P(a < X ≤ b) = P(a < X < b) = P(a ≤ X ≤ b) = P(a ≤ X < b)
 
 
 
