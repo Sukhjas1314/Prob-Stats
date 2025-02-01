@@ -1,4 +1,4 @@
-                    Probability
+                      Probability
 
 
 ->  Random experiment :- 
@@ -204,6 +204,12 @@
                     |--------------------|
 
 
+->  Conditional density :- 
+                    |-------------------------|
+                    | p(X|Y) = p(X = x,Y = y) |
+                    |          -------------- |
+                    |               p(y)      |
+                    |-------------------------|
 
 
 
