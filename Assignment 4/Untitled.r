@@ -51,20 +51,20 @@ print(var)
 
 # Q5.
 fx = function(x){
-	return((3/4)*(1/4)^(x-1)) 
+	(3/4)*(1/4)^(x-1) 
 }
 x_val = 3
-y_val = x_val^2
-fy_9 = fx(x_val)
-print(fy_9)
+print(fx(x_val))
+
+fy = function(t){
+	(3/4)*(1/4)^(sqrt(t)-1) 
+}
 x = c(1,2,3,4,5)
 y = x^2
-fy = sapply(x,fx)
-
-ans5 = sum(y*fy)
+ans5 = sum(y * fy(y))
 print(ans5)
 
-ans6 = sum(y^2 * fy)
+ans6 = sum(y^2 * fy(y))
 print(ans6)
 
 variance = ans6 - ans5^2
