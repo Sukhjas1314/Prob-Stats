@@ -69,8 +69,8 @@
 # pie(x,label,col=c('red','pink','black','green','cyan'),main="Pie Chart",radius=1) 
 
 
-y = c(2,4,9,16,25)
-barplot(y,xlab="Density",ylab="Volume",main="Plot Graph",col="blue")
+#y = c(2,4,9,16,25)
+#barplot(y,xlab="Density",ylab="Volume",main="Plot Graph",col="blue")
 
 
 
