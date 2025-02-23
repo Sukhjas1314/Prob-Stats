@@ -9,7 +9,7 @@ print(pbinom(a,n,p) - pbinom(b,n,p))
 # Q2.
 mean = 72
 sd = 15.2
-print((1 - pnorm(83,mean,sd))*100)
+print((1 - pnorm(84,mean,sd))*100)
 
 
 # Q3.
